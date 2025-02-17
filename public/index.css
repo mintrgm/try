@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'SF Distant Galaxy';
+    src: local('SF Distant Galaxy'), url(fonts/SF\ Distant\ Galaxy.ttf), format('ttf');
+  }
+  
+  body {
+    background-color: black;
+    margin: 0;
+    font-family: 'SF Distant Galaxy';
+  }
+  
+  #progress-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #progress {
+    font-size: 3em;
+    color: white;
+  }
